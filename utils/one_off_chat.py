@@ -61,7 +61,7 @@ def main():
     parser = argparse.ArgumentParser(description="Chat with an LLM")
     #Add arguments to the parser
     parser = argparse.ArgumentParser(description="Chat with an LLM")
-    parser.add_argument("--model", type=str, default="google/flan-t5-base", help="Hugging Face Model to be used.")
+    parser.add_argument("--model", type=str, default="microsoft/phi-4", help="Hugging Face Model to be used.")
     parser.add_argument("--api_key", type=str, help="API key from Hugging Face.")
     args = parser.parse_args()
     

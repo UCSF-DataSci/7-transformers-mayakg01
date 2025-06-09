@@ -52,8 +52,8 @@ print("\nFew-shot prompt:")
 print(few_shot_prompt)
 
 api_key = os.getenv("HUGGINGFACE_API_KEY")
-model_name = "google/flan-t5-base"
-def get_llm_response(prompt, model_name="google/flan-t5-base", api_key=None):
+model_name = "microsoft/phi-4"
+def get_llm_response(prompt, model_name="microsoft/phi-4", api_key=None):
     """Get a response from the LLM based on the prompt"""
     # Implement the get_llm_response function
     api_url = f"https://api-inference.huggingface.co/models/{model_name}"

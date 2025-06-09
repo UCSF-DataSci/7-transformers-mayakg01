@@ -7,7 +7,7 @@ from utils.one_off_chat import get_response as get_one_off_response
 # Optionally import the conversation module if testing that too
 # from conversation import get_response as get_contextual_response
 
-def test_chat(questions, model_name="google/flan-t5-base", api_key=None):
+def test_chat(questions, model_name="microsoft/phi-4", api_key=None):
     """
     Test the chat function with a list of questions
     
@@ -74,6 +74,7 @@ def save_results(results, output_file="results/part_2/example.txt"):
 
 # Run the test and save results
 if __name__ == "__main__":
-    results = test_chat(test_questions)
+    api_key = os.getenv("api_key")
+    results = test_chat(test_questions, api_key=api_key)
     save_results(results)
     print("Test results saved to results/part_2/example.txt")
