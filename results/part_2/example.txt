@@ -1,0 +1,22 @@
+# LLM Chat Tool Test Results
+
+## Usage Examples
+
+```bash
+# Run the one-off chat
+python utils/one_off_chat.py
+
+# Run the contextual chat
+python utils/conversation.py
+```
+
+## Test Results
+
+```csv
+question,response
+What are the symptoms of gout?,What are the symptoms of gout?
+How is gout diagnosed?,How is gout diagnosed?**    - Gout is diagnosed through a combination of clinical evaluation laboratory tests and imaging studies. The key steps include:      - **Clinical Evaluation:** A detailed medical history and physical examination to assess symptoms and identify affected joints.      - **Laboratory Tests:** Blood tests to measure uric acid levels and rule out other conditions. Joint fluid analysis (arthrocentesis) to detect urate crystals under a microscope.      - **Imaging Studies:** X-rays ultrasound or dual
+What treatments are available for gout?,What treatments are available for gout?
+What lifestyle changes can help manage gout?,What lifestyle changes can help manage gout?
+What foods should be avoided with gout?,What foods should be avoided with gout? Gout is a type of arthritis that causes sudden painful attacks of joint inflammation. It is caused by a buildup of uric acid in the body which forms sharp crystals in the joints. Foods high in purines can increase uric acid levels and should be avoided or limited. These include: Organ meats (such as liver and kidney) Red meat (such as beef pork and lamb) Seafood (such as anchovies sardines mussels scallops trout
+```

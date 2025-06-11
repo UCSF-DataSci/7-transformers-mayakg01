@@ -44,7 +44,7 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-models/*.keras
+
 models/*.pt
 models/*.h5
 models/*.pth
@@ -53,14 +53,7 @@ models/*.pth
 data/processed/*
 !data/processed/.gitkeep
 
-results/part_1/*
-results/part_2/*
-results/part_3/*
-results/part_4/*
-!results/part_1/.gitkeep
-!results/part_2/.gitkeep
-!results/part_3/.gitkeep
-!results/part_4/.gitkeep
+
 
 logs/
 wandb/

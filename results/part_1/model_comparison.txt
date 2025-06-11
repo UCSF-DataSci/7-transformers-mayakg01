@@ -1,0 +1,19 @@
+best_model: Simple NN
+accuracy: 0.9883720874786377
+precision: 0.9836065573770492
+recall: 1.0
+f1_score: 0.9917355371900827
+confusion_matrix: [[25, 1], [0, 60]]
+
+--- Cross-Validation Results ---
+model_1_mean_accuracy: 0.9799683451652527
+model_1_std_accuracy: 0.014984313803660861
+model_2_mean_accuracy: 0.979936707019806
+model_2_std_accuracy: 0.009952724966720023
+model_3_mean_accuracy: 0.9774367094039917
+model_3_std_accuracy: 0.01659315092471479
+
+--- Model Complexity Analysis ---
+Simple NN_parameters: 4322
+Deep NN_parameters: 15346
+Residual NN_parameters: 141570
